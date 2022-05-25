@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+*{
+    box-sizing: border-box;/*Sem isso só a caixa do texto já terá 400 px*/
+}
+
+body{
+    background-color: #0B5394;
+    margin: 0;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /*height: 350px;*/
+
+    /*max-width: 420px;
+    margin: 0 auto;
+    border: 1px solid #ccc;*/
+}
+
+.title{
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+    /*max-width: 620px;
+    margin: 4rem auto;*/
+    text-align: center;
+    /*background-color: #0B5394;*/
+    color: white;
+    padding: 10px;
+    text-align: left;
+    width: 30%;
+}
+
+.text{
+    font-family: 'Alegreya', serif;
+    font-size: 1.2rem;
+    color: white;
+    /*max-width: 620px;
+    margin: 4rem auto;*/
+    text-align: left;
+    /*background-color: #0B5394;*/
+    padding: 10px 10px 10px 10px; /*margin around the content*/
+    width: 50%;
+}
+
+
+.img-full {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.cont > div{
+    /*border: 1px solid #0B5394;*/
+    /*height: 200px;*/
+    height: 100%;
+    overflow: hidden; /*to avoid scroll bars*/
+}
+
+.imgbottom{
+    width: 40%;
+}
