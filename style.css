@@ -69,3 +69,63 @@ body{
 .imgbottom{
     width: 40%;
 }
+
+/* --------------- para o scrollytelling --------------- */
+
+
+
+.passos{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index:2;
+  }
+  
+  .passos > div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    display: none;
+    align-items: center;
+  }
+  
+  .passos > div.passo-ativo{
+    display: flex;
+  }
+  
+  .passos > div > *{
+    display: block;
+  }
+  
+  .passos > div > img{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  
+  .gatilhos{
+    position: absolute;
+    z-index: 1000;
+  }
+  .gatilhos > div{
+    /* border:4px solid red; */
+    height: 100vh;
+    width: 50vw;
+    left: 50vw;
+    position: relative;
+    z-index:100;
+    padding: 10%;
+    background-color: #0B5394;
+  
+    font-family: 'Alegreya', serif;
+    font-size: 1.2rem;
+    color: white;
+    /*max-width: 620px;
+    margin: 4rem auto;*/
+    text-align: left;
+  }
