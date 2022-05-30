@@ -2,14 +2,13 @@
 
 ## About
 
-Explaining the reasons why TSE must not follow FOrças Armadas suggestions in 2022 Brazil elections process.
+Explaining the reasons why TSE must not follow Forças Armadas suggestions in 2022 Brazil elections process.
 
 ## Main aim
 
 This project aims:
 
-1. to explain the concepts involved in Ofício 007 from SE
-2. to practice scrollytelling
+1. to practice scrollytelling as part of Datavis Studio 02 and Desenvolvimento de Aplicativos Web classes from Master em Jornalismo de Dados e Data Storytelling (INSPER).
 
 
 ## Details
