@@ -71,17 +71,21 @@ body{
 }
 
 /* --------------- para o scrollytelling --------------- */
-
+.cont_scroll{
+  position: relative;
+  border: 1px dotted green;
+}
 
 
 .passos{
     width: 50%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
+    position: sticky; /* como o fixed dentro de um container*/
     z-index:2;
+    border: 1px dashed hotpink;
   }
   
   .passos > div{
@@ -109,11 +113,12 @@ body{
   
   
   .gatilhos{
-    position: absolute;
     z-index: 1000;
+    border:4px solid yellow;
+    opacity: 0.5;
   }
   .gatilhos > div{
-    /* border:4px solid red; */
+     
     height: 100vh;
     width: 50vw;
     left: 50vw;
