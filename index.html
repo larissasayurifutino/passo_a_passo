@@ -89,11 +89,9 @@
 
 
                         <div class="text">
-                            <p>
-                                O TSE respondeu as considerações apresentadas <a href="https://www.tse.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tse.jus.br/comunicacao/noticias/arquivos/respostas-tecnicas-do-tribunal-superior-eleitoral-ao-oficio-md-no-007-2022/@@download/file/Ofi%CC%81cio%20007%20-%20Minuta%20de%20resposta%20-%20MEF.pdf">link</a>,
-                             </p>
+                            <p> O TSE respondeu as considerações apresentadas <a href="https://www.tse.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tse.jus.br/comunicacao/noticias/arquivos/respostas-tecnicas-do-tribunal-superior-eleitoral-ao-oficio-md-no-007-2022/@@download/file/Ofi%CC%81cio%20007%20-%20Minuta%20de%20resposta%20-%20MEF.pdf">link</a>.</p>
                     
-                            <p>O Ofício revela o desconhecimento do MD com relação ao processo eleitoral vigente e esmiúça inegáveis falhas de conceitos. </p> 
+                            <p> O Ofício revela o desconhecimento do MD com relação ao processo eleitoral vigente e esmiúça inegáveis falhas de conceitos. </p> 
                         </div>
 
 
@@ -188,6 +186,7 @@
                 
                 <div class="text">
                     <p> A pergunta de milhões. </p>
+                    <p> Em um processo de amostragem, dizemos que 03 características atuam sobre o tamanho da amostra desejada.  </p>
                     <p> Vamos descrever aqui a relação que existe entre: </p>
                 </div>
                 
@@ -196,7 +195,7 @@
             </div>
 
             <div class="cont"> 
-                <img src="images/relacao_04_ingredientes.gif"  class = "img-full" />
+                <img src="images/relacao_04_ingredientes.gif"  class = "img-smaller" />
             </div>
 
             <section class="article-concepts">
@@ -216,13 +215,22 @@
                             
                     </div>
                     
-                    
-                    
+
                     
                 </div>
 
                 <div class="cont"> 
-                    <img src="images/erro_amostral.png"  class = "img-full" />
+                    <div class="text">
+                        <p> Suponha que a gente queira estimar 🟢.</p>
+                        <p> Cada ⚪ representa uma estimativa diferente para 🟢 e corresponde a uma maneira diferente de errar o valor de 🟢. </p>
+                    </div>
+
+                    
+                    <img src="images/erro_amostral.png"  class = "img-smaller" />
+
+                    <div class="text">
+                        <p> Obviamente, queremos estimar 🟢 com o menor nível de erro possível.</p>
+                    </div>
                 </div>
 
 
@@ -239,18 +247,22 @@
                     
                     <div class="text">
                         <p> Como dissemos, sabemos que vamos errar.</p>
-                        <p> Maaaas queremos controlar que o nosso erro seja pequeno. </p>
-                        <p> É como se pudéssemos tirar várias e várias amostras, uma sem ligação ou interferência com a outra, e quiséssemos errar pouco de um modo geral.</p>
+                        <p> Maaaas queremos controlar que o nosso erro seja pequeno, independentemente da amostra que retiramos. </p>
+                        <p> É como se pudéssemos tirar várias e várias amostras, uma sem ligação ou interferência com a outra</p>
                             
                     </div>
                     
-                    
-                    
-                    
+
                 </div>
 
+
+                <img src="images/varias_amostras_erro_amostral.gif"  class = "img-full" />
+
+
                 <div class="cont"> 
-                    <img src="images/varias_amostras_erro_amostral.gif" class = "img-full" />
+                    <div class="text">
+                        <p>e quiséssemos errar pouco de um modo geral.</p>
+                    </div>                    
                 </div>
 
                 <!-- 13 -->
@@ -264,8 +276,9 @@
                     
                     
                     <div class="text">
-                        <p> Queremos que o erro na estimativa seja pequeno, tipo uns 1% em pelo menos 95% das vezes que a gente tentasse fazer uma estimativa.</p>
-                        <p> O erro seria de 1% e o nível de confiança seria 95%.</p>
+                        <p> Queremos errar pouco na maioria das vezes.</p>
+                        <p> Por exemplo, queremos que o erro na estimativa seja pequeno, tipo uns 1%, em pelo menos 95% das vezes que a gente tentasse fazer uma estimativa.</p>
+                        <p> Nesse caso, erro seria de 1% e o nível de confiança seria 95%.</p>
                             
                     </div>
                     
@@ -296,9 +309,45 @@
                 </div>
 
                 <div class="cont">
-                    <img src="images/porp_urnas_defeit.gif"  class = "img-full" />
+                    <img src="images/peq_prop_inconf.png"  class = "img-full" />
                 </div>
 
+
+                <!-- 15 -->
+
+                <div class="cont">
+
+                    <div class="text">
+
+                        <p> quanto se o cenário é de GRANDE PROPORÇÃO de inconformidade: </p>
+                            
+                    </div>
+                    
+
+                    
+                </div>
+
+                <div class="cont">
+                    <img src="images/grande_prop_inconf.png"  class = "img-full" />
+                </div>                
+
+
+                <!-- 16 -->
+
+                <div class="cont">
+
+                    <div class="text">
+
+                        <p> Mas… se o cenário é de muita VARIABILIDADE é melhor observar mais elementos. </p>
+                            
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="cont">
+                    <img src="images/grande_variabilidade.png"  class = "img-full" />
+                </div>     
 
 
                 <!-- 17 -->
@@ -313,12 +362,15 @@
 
                     <div class="text">
                         <p> Lembre-se: queremos estimar a proporção de urnas com irregularidades. O quanto isso pode variar?</p>
+                        <p> Poderíamos chutar esse número mas...</p>
                         <p> Temos um histórico de uso das urnas de eleição brasileiras. Podemos usar esse passado como informação!</p>
                             
                     </div>
                     
                     
                 </div>
+
+                
 
 
                 <!-- 18 -->
@@ -334,6 +386,8 @@
                     <div class="text">
                         <p> Em 02 décadas, os testes de integridade nunca constataram irregularidade nas urnas. </p>
                         <p> Portanto, vamos representar esse fato.</p>
+                        <p> Deve ser um valor de probabilidade que denote um evento bem raro de ocorrer.</p>
+                        <p> O TSE representa esse fato adotando que a probabilidade de uma urna apresentar defeito é pequena, cerca de 0.01%.</p>
                             
                     </div>
                     
@@ -341,8 +395,29 @@
                 </div>
 
                 <div class="cont"> 
-                    <img src="images/prob_urna_defeito.png" class = "img-full" />
+                    <img src="images/prob_urna_defeito_tse.png" class = "img-full" />
                 </div>
+
+
+
+                <!-- 19 -->
+
+                <div class="cont">
+                  
+
+                    <div class="text">
+                        <p> Já o MD adotou que a probabilidade de uma urna apresentar defeito é de 50%.</p>
+                        <p> Isso equivale a dizer que uma urna é fraudulenta como a probabilidade de observamos uma cara lançando uma moeda 🪙 honesta.</p>
+                        <p> Na prática, é como se o MD considerasse que não há ligação entre a integridade das urnas das eleições passadas e do pleito que se aproxima.</p>
+                            
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="cont"> 
+                    <img src="images/prob_urna_defeito_md.png" class = "img-full" />
+                </div>                
 
             </section>  <!-- .article-concepts --> 
 
