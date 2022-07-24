@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 
 *{
     box-sizing: border-box;/*Sem isso só a caixa do texto já terá 400 px*/
@@ -38,7 +38,7 @@ h2.subtitle,
 .article-title-detail,
 .article-author,
 h2.subtitle{
-  font-family: 'Alegreya', serif;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .article-title {
@@ -74,7 +74,8 @@ h2.subtitle {
 
 
 .article-concepts{
-  background-color: #dedede;
+  background-color: darkgray;
+  color: #636b5c;
 }
 
 
@@ -105,7 +106,7 @@ h2.subtitle {
 }
 
 .text{
-    font-family: 'Alegreya', serif;
+    font-family: 'Fredoka';
     font-size: 1.2rem;
     color: white;
     /*max-width: 620px;
