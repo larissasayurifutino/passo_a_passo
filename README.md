@@ -20,11 +20,11 @@ This project is based on the following document:
 
 ## To do
 
-Make it pleasant to read.
+The document is divided in 07 distinct topics. It would be interesting to present at least 04.
 
 ## Last update
 
-May 30, 2022
+July 24, 2022
 
 
 ## Author
@@ -33,5 +33,5 @@ Larissa Sayuri Futino Castro dos Santos
 
 ## Acknowledment
 
-Many thanks to [@gabrielacaesar](https://github.com/gabrielacaesar) for her comments and revision.
+Many thanks to [@gabrielacaesar](https://github.com/gabrielacaesar) for her detailed comments and revision.
 
