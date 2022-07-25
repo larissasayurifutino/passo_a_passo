@@ -33,5 +33,5 @@ Larissa Sayuri Futino Castro dos Santos
 
 ## Acknowledment
 
-Many thanks to [@tiagombp](https://github.com/tiagombp).
+Many thanks to [@gabrielacaesar](https://github.com/gabrielacaesar) for her comments and revision.
 
