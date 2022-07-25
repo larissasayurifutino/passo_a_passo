@@ -10,6 +10,10 @@ body{
     margin: 0;
 }
 
+a{
+  color: blue;
+}
+
 /* ----------------------------------------- */
 .cabecalho{
   margin-left: 10%;
@@ -94,7 +98,7 @@ h2.subtitle {
 
 .title{
     font-family: 'Staatliches', cursive;
-    font-size: 3rem;
+    font-size: 1.8rem;
     /*max-width: 620px;
     margin: 4rem auto;*/
     text-align: center;
@@ -193,9 +197,8 @@ h2.subtitle {
     z-index:100;
     padding: 10%;
     background-color: #2b2b2b;
-  
-    font-family: 'Alegreya', serif;
-    font-size: 1.2rem;
+    font-family: 'Fredoka';
+    font-size: 0.8rem;
     color: white;
     /*max-width: 620px;
     margin: 4rem auto;*/
